@@ -12,10 +12,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli.size >= 0
-    katz_deli << name
-    katz_deli.each_with_index{|customer, i|puts "Welcome, #{customer}. You are number #{i+1} in line."}
-
-end
+  katz_deli << name
 
 end
