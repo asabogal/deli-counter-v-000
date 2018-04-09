@@ -1,4 +1,4 @@
-# require 'pry'
+require 'pry'
 
 def line(katz_deli)
   if katz_deli.size == 0
@@ -14,6 +14,9 @@ end
 def take_a_number(katz_deli, name)
   if katz_deli.size == 0
     katz_deli << name
+    binding.pry
+    puts "Welcome, #{name}. You are number #{} in line.
 
 end
+
 end
